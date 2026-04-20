@@ -28,3 +28,8 @@ public class AuthController : ControllerBase
         return await _authService.Authenticate(loginRequest);
     }
 }
+
+
+
+
+
